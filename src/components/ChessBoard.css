@@ -1,0 +1,23 @@
+.board {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.row {
+    display: flex;
+}
+
+.cell {
+    width: 100px; /* adjust size as needed */
+    height: 100px; /* adjust size as needed */
+    border: 1px solid black; /* for visibility */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.piece {
+    font-size: 24px; /* adjust size as needed */
+}
